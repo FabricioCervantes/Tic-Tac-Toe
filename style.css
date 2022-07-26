@@ -83,3 +83,17 @@ button:hover {
     background: #fff;
     color: #212529
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    .gameBoard {
+        height: 304px;
+        width: 304px;
+    }
+    .space {
+        height: 101.3px;
+        width: 101.3px;
+    }
+}
